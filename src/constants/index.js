@@ -263,7 +263,7 @@ import {
   },
   {
   testimonial:
-  "Sharmistha excels in designing scalable web applications, and her commitment to quality is evident in every project. Sharmishtha is not just a technologically adept individual but also a team player who communicates effectively.",
+  "Sharmistha excels in designing scalable web applications, and her commitment to quality is evident in every project. Sharmistha is not just a technologically adept individual but also a team player who communicates effectively.",
   name: "Umesh Panigrahi",
     designation: "Software Engineer",
     company: "Sapiens",
