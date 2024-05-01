@@ -4,7 +4,7 @@ import {
     creator,
     web,
     java,
-    springboot,
+    angular,
     
     javascript,
     // typescript,
@@ -23,6 +23,7 @@ import {
     sunbeam,
     rgpv,
     aecom,
+    precisely,
     juniper,
     ghrce,
     weatherapp,
@@ -76,8 +77,8 @@ import {
         icon: java,
       },
       {
-        name: "Springboot 3",
-        icon: springboot,
+        name: "Angular",
+        icon: angular,
       },
     
       {
@@ -147,13 +148,24 @@ import {
   ];
   
   const experiences = [
-   
+    {
+      title: "UI Developer",
+      company_name: "Precisely S&D",
+      icon: precisely,
+      iconBg: "#E6DEDD",
+      date: "Mar 2024 - Current",
+      points: [
+        "Working with Angular 17 in the DI Suite product",
+        "Creating different components and test cases and learning Angular on the go"
+    
+    ],
+    },
     {
       title: "Software Developer 1",
       company_name: "Juniper Networks",
       icon: juniper,
       iconBg: "#E6DEDD",
-      date: "May 2022 - Current",
+      date: "May 2022 - Dec 2023",
       points: [
         "Responsible for architecture, design, and solution implemen- tation for Device Management and Workflow Automation software on Junos",
         "Worked on GNATS internal website since April 2023 on the FrontEnd and White-list feature for Junos devices( SRX1500, SRX4100, SRX4200, SRX5400, SRX5600, and SRX5800 de- vices and vSRX) using Java8, SpringBoot, JPA/Hibernate, Re- actJS, TailwindCSS and PostGreSQL",
@@ -249,7 +261,14 @@ import {
     company: "NetSPI",
     image: "https://i.imgur.com/2FEaZ2G.png",
   },
-
+  {
+  testimonial:
+  "Sharmistha excels in designing scalable web applications, and her commitment to quality is evident in every project. Sharmishtha is not just a technologically adept individual but also a team player who communicates effectively.",
+  name: "Umesh Panigrahi",
+    designation: "Software Engineer",
+    company: "Sapiens",
+    image: "https://media.licdn.com/dms/image/C4D03AQFxyvWdUHOO2A/profile-displayphoto-shrink_400_400/0/1655877874179?e=1720051200&v=beta&t=Hen6EdqLPNhEGmaSMfiEdh5kNLwoKyCMPtfTtENSEBg",
+  }
   ];
   
   const projects = [

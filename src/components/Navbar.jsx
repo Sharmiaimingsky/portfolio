@@ -5,6 +5,9 @@ import { navLinks } from '../constants';
 import { logo, menu, close} from '../assets';
 import { Html } from '@react-three/drei';
 import { Canvas } from "@react-three/fiber";
+import github from "../assets/github.png"
+import linkedin from "../assets/linkedin2.png"
+import leetcode from "../assets/lc2.png"
 const Navbar = () => {
   const [active, setActive] = useState(' ')
   const [toggle, setToggle] = useState(false)
@@ -42,7 +45,36 @@ onClick={() => {
   <img src = {logo} alt="logo" className="w-9 h-9 object-contain" />
   <p className="text-white text-[18px] font-bold cursor-pointer flex ">
   Sharmistha &nbsp;
-  <span className="sm:block hidden"> | FullStack Dev</span></p>
+  <span className="sm:block hidden"> | FullStack Dev </span><div
+        onClick={() => window.open('https://github.com/Sharmiaimingsky', "_blank")}
+        className=' w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+      >
+        <img
+          src={github}  // Replace this with the actual path to your GitHub PNG icon
+          alt="GitHub Icon"
+          style={{ width: '24px', height: '24px', marginRight: '6px', marginTop:'-5px' }}
+        />
+      </div>
+<div
+  onClick={() => window.open('https://www.linkedin.com/in/sharmistha-chakrabortyy/', "_blank")}
+  className=' w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+   >
+  <img
+    src={ linkedin}  // Replace this with the actual path to your GitHub PNG icon
+    alt="Linkedin Icon"
+    style={{ width: '24px', height: '24px', marginRight: '15px', marginTop:'-5px'}}
+  />
+</div>
+<div
+  onClick={() => window.open('https://leetcode.com/sharmic17/', "_blank")}
+ className='w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+  >
+  <img
+    src={ leetcode}  // Replace this with the actual path to your GitHub PNG icon
+    alt="Leetcode Icon"
+    style={{ width: '24px', height: '24px', marginRight: '15px', marginTop:'-5px'}}
+  />
+</div></p>
 </Link>
 {/* <Canvas>
       <ambientLight />

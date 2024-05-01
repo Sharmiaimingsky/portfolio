@@ -40,18 +40,20 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
+        <div className="flex flex-col items-center justify-center">
+
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Who am I.</h2>
       </motion.div>
     
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("center", "center", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-center'
       >
         <img src={selfPhoto} className="w-60 h-60 object-contain  mx-60 my-7 mt-11 mb-11"/> 
      
-        I'm an enthusiastic software developer with experience in Java, SpringBoot, JPA, TypeScript and
+        I'm an enthusiastic software developer with experience in Java, SpringBoot, Angular, JPA, TypeScript and
         JavaScript, HTML, CSS and expertise in frameworks like React, Node.js, and
         Three.js. 💻 I'm a quick learner and collaborate closely with clients to 
         create efficient, scalable, and user-friendly solutions that solve
@@ -65,6 +67,7 @@ const About = () => {
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+      </div>
       </div>
     </>
   );

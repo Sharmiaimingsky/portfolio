@@ -8,7 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import java from "./tech/java.png";
-import springboot from "./tech/springboot.png";
+import angular from "./tech/angular.png";
 // import jpa from "./tech/jpa.png";
 import css from "./tech/css.png";
 import jenkins from "./tech/jenkins.png";
@@ -31,6 +31,7 @@ import rgpv from "./company/rgpv.png";
 import sunbeam from "./company/sunbeam.png";
 import ghrce from "./company/ghrce.avif";
 import aecom from "./company/aecom.png";
+import precisely from "./company/precisely.png";
 import juniper from "./company/juniper1.png";
 
 import weatherapp from "./weatherapp.png";
@@ -51,7 +52,7 @@ export {
   menu,
   close,
   java,
-  springboot, 
+  angular, 
   css,
   jenkins,
   python, 
@@ -72,6 +73,7 @@ export {
   rgpv,
   ghrce,
   aecom,
+  precisely,
   juniper,
   weatherapp,
   tetrify,
