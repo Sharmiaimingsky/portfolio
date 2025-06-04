@@ -155,9 +155,13 @@ import {
       iconBg: "#E6DEDD",
       date: "Mar 2024 - Current",
       points: [
-        "Working with Angular 17 in the DI Suite product",
-        "Creating different components and test cases and learning Angular on the go"
-    
+   
+"Recognized with Precisely's February 2025 Round of Applause Award for leading a successful, high-stakes reverse sync data replication deployment for Carrefour under tight deadlines",
+"Contributed to front-end development using Angular, Tailwind CSS, Next.js, alongside tools like Playwright, Jasmine, Git, JIRA, and SonarQube within the Data Integrity Suite",
+"Accountable for feature development for Fortune 100 clients, including unit testing, component testing, E2E testing, and adhering to a rigorous design system",
+"Utilizing advanced prompt engineering techniques with GitHub Copilot to accelerate development and streamline bug resolution",
+"Demonstrated sprint-wise progress updates in company-wide presentations conducted every two weeks, showcasing development milestones and ensuring alignment with project goals"
+
     ],
     },
     {
@@ -276,7 +280,7 @@ import {
       name: "Weather App ",
       
       description:
-        "Web-based platform that allows users to search for climate of 2 lakh cities worldwide. Changes the background responsively according to the weather.",
+        "Web-based platform that allows users to search for climate of 2 lakh cities worldwide. Changes the background dynamically according to the weather and AI generates poems according to location and weather.",
       tags: [
         {
           name: "react",
