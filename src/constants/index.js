@@ -298,6 +298,7 @@ import {
      
       image: weatherapp,
       source_code_link: "https://github.com/Sharmiaimingsky/WeatherNow",
+      live_link: "https://weathernowreport.netlify.app/"
       
     },
     {
