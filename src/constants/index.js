@@ -321,6 +321,7 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://github.com/",
+      live_link : "https://sharmichakraborty.netlify.app/"
     },
     {
       name: "Tetrify",
@@ -342,6 +343,7 @@ import {
       ],
       image: tetrify,
       source_code_link: "https://github.com/Sharmiaimingsky/tetris",
+      live_link: "https://tetrify.netlify.app/"
     },
 
     {
@@ -385,6 +387,7 @@ import {
       ],
       image: snake,
       source_code_link: "https://github.com/Sharmiaimingsky/SnakeMania",
+      live_link: "https://nokiasnakemania.netlify.app/"
     },
     {
       name: "Moving Car",
@@ -406,6 +409,7 @@ import {
       ],
       image: car,
       source_code_link: "https://github.com/Sharmiaimingsky/Moving-Car",
+      live_link: "https://movingcar.netlify.app/"
     },
   ];
   
